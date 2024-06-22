@@ -24,10 +24,9 @@ export default function Component() {
               <p className="text-gray-300 md:text-xl">
               Encuentre limpiadores, electricistas, jardineros y fontaneros de primer nivel con solo unos pocos clics.              </p>
               <div className="flex gap-2">
-                <Button className="boton2">Hire Now</Button>
-                <Button variant="outline" className="text-white hover:bg-white hover:text-gray-900">
-                  Learn More
-                </Button>
+              <a href="/publicaciones" className="boton w-full max-w-md block text-center py-2 px-4 bg-blue-500 text-white rounded-md shadow-md hover:bg-blue-600">
+                  Hire Now
+               </a>
               </div>
             </div>
             <div className="hidden md:block">
@@ -50,9 +49,9 @@ export default function Component() {
                 <p className="text-gray-500 dark:text-gray-400 text-center">
                   Our professional cleaners will make your home or office spotless.
                 </p>
-                <Button variant="link" className="text-gray-900 dark:text-gray hover:underline">
-                  Learn More
-                </Button>
+                <a href="/publicaciones" className="boton w-full max-w-md block text-center py-2 px-4 bg-blue-500 text-white rounded-md shadow-md hover:bg-blue-600">
+                  Hire Now
+                </a>  
               </div>
               <div className=" tarjetas bg-white rounded-lg shadow-md p-6 flex flex-col items-center gap-4">
                 <BoltIcon className="h-12 w-12 text-gray-900 dark:text-gray" />
@@ -60,9 +59,9 @@ export default function Component() {
                 <p className="text-gray-500 dark:text-gray-400 text-center">
                   Our licensed electricians can handle any electrical job, big or small.
                 </p>
-                <Button variant="link" className="text-gray-900 dark:text-gray hover:underline">
-                  Learn More
-                </Button>
+                <a href="/publicaciones" className="boton w-full max-w-md block text-center py-2 px-4 bg-blue-500 text-white rounded-md shadow-md hover:bg-blue-600">
+                    Hire Now
+                </a>
               </div>
               <div className="tarjetas bg-white rounded-lg shadow-md p-6 flex flex-col items-center gap-4">
                 <LeafIcon className="h-12 w-12 text-gray-900 dark:text-gray" />
@@ -70,9 +69,9 @@ export default function Component() {
                 <p className="text-gray-500 dark:text-gray-400 text-center">
                   Our expert gardeners will keep your outdoor space looking beautiful.
                 </p>
-                <Button variant="link" className="text-gray-900 dark:text-gray hover:underline">
-                  Learn More
-                </Button>
+                <a href="/publicaciones" className="boton w-full max-w-md block text-center py-2 px-4 bg-blue-500 text-white rounded-md shadow-md hover:bg-blue-600">
+                    Hire Now
+                </a>
               </div>
               <div className="bg-white tarjetas rounded-lg shadow-md p-6 flex flex-col items-center gap-4">
                 <PipetteIcon className="h-12 w-12 text-gray-900 dark:text-gray" />
@@ -80,9 +79,9 @@ export default function Component() {
                 <p className="text-gray-500 dark:text-gray-400 text-center">
                   Our skilled plumbers can handle any plumbing issue, big or small.
                 </p>
-                <Button variant="link" className="text-gray-900 dark:text-gray hover:underline">
-                  Learn More
-                </Button>
+                <a href="/publicaciones" className="boton w-full max-w-md block text-center py-2 px-4 bg-blue-500 text-white rounded-md shadow-md hover:bg-blue-600">
+                  Hire Now
+                </a>
               </div>
             </div>
           </div>
@@ -143,6 +142,19 @@ export default function Component() {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+        <section className=" centrar py-12 md:py-24 lg:py-32">
+          <div className="container px-4 md:px-6 grid gap-8">
+            <div className="text-center space-y-4">
+              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Ready to Get Started?</h2>
+              <p className="text-gray-500 md:text-xl">Hire the best professionals for your home or business needs.</p>
+            </div>
+            <div className="flex justify-center">
+            <a href="/publicaciones" className="boton w-full max-w-md block text-center py-2 px-4 bg-blue-500 text-white rounded-md shadow-md hover:bg-blue-600">
+              Hire Now
+            </a>
             </div>
           </div>
         </section>

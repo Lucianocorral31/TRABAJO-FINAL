@@ -25,9 +25,6 @@ const MobileMenu = ({ menuOpen, setMenuOpen }) => (
         <Link href="#" className="hover:underline w-full text-left" prefetch={false} onClick={() => setMenuOpen(false)}>
             About Us
         </Link>
-        <Link href="#" className="hover:underline w-full text-left" prefetch={false} onClick={() => setMenuOpen(false)}>
-            Contact
-        </Link>
     </div>
 );
 export default function Header() {
@@ -49,7 +46,6 @@ export default function Header() {
                 <Link href="/" className="hover:underline" prefetch={false}>Home</Link>
                 <Link href="/publicaciones" className="hover:underline" prefetch={false}>Services</Link>
                 <Link href="/about" className="hover:underline" prefetch={false}>About Us</Link>
-                <Link href="/Chat" className="hover:underline" prefetch={false}>Contact</Link>
             </nav>
 
             <div className="flex gap-2">

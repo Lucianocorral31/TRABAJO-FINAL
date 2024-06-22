@@ -79,16 +79,16 @@ export default function Component() {
                     <AccordionContent>
                       <div className="grid gap-2">
                         <Label className="flex items-center gap-2 font-normal">
-                          <Checkbox id="province-ontario" /> Ontario
+                          <Checkbox id="province-ontario" /> Tucuman
                         </Label>
                         <Label className="flex items-center gap-2 font-normal">
-                          <Checkbox id="province-quebec" /> Quebec
+                          <Checkbox id="province-quebec" /> Santa Fe
                         </Label>
                         <Label className="flex items-center gap-2 font-normal">
-                          <Checkbox id="province-british-columbia" /> British Columbia
+                          <Checkbox id="province-british-columbia" /> Cordoba
                         </Label>
                         <Label className="flex items-center gap-2 font-normal">
-                          <Checkbox id="province-alberta" /> Alberta
+                          <Checkbox id="province-alberta" /> San luis
                         </Label>
                       </div>
                     </AccordionContent>
@@ -102,9 +102,6 @@ export default function Component() {
                   <p className="text-gray-500 dark:text-gray-400 text-center">
                     Our professional cleaners will make your home or office spotless.
                   </p>
-                  <Button variant="link" className="text-gray-900 dark:text-gray hover:underline">
-                    Learn More
-                  </Button>
                 </div>
                 <div className="bg-white dark:bg-gray rounded-lg shadow-md p-6 flex flex-col items-center gap-4">
                   <BoltIcon className="h-12 w-12 text-gray-900 dark:text-gray" />
@@ -112,9 +109,6 @@ export default function Component() {
                   <p className="text-gray-500 dark:text-gray-400 text-center">
                     Our licensed electricians can handle any electrical job, big or small.
                   </p>
-                  <Button variant="link" className="text-gray-900 dark:text-gray hover:underline">
-                    Learn More
-                  </Button>
                 </div>
                 <div className="bg-white dark:bg-gray rounded-lg shadow-md p-6 flex flex-col items-center gap-4">
                   <LeafIcon className="h-12 w-12 text-gray-900 dark:text-gray" />
@@ -122,9 +116,6 @@ export default function Component() {
                   <p className="text-gray-500 dark:text-gray-400 text-center">
                     Our expert gardeners will keep your outdoor space looking beautiful.
                   </p>
-                  <Button variant="link" className="text-gray-900 dark:text-gray hover:underline">
-                    Learn More
-                  </Button>
                 </div>
                 <div className="bg-white dark:bg-gray rounded-lg shadow-md p-6 flex flex-col items-center gap-4">
                   <PipetteIcon className="h-12 w-12 text-gray-900 dark:text-gray" />
@@ -132,9 +123,6 @@ export default function Component() {
                   <p className="text-gray-500 dark:text-gray-400 text-center">
                     Our skilled plumbers can handle any plumbing issue, big or small.
                   </p>
-                  <Button variant="link" className="text-gray-900 dark:text-gray hover:underline">
-                    Learn More
-                  </Button>
                 </div>
               </div>
             </div>
@@ -152,10 +140,10 @@ export default function Component() {
                   </label>
                   <input
                     type="text"
-                    id="jobTitle"
-                    name="jobTitle"
+                    id="Nombre y apellido"
+                    name="Nombre y apellido"
                     className="border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 block w-full sm:text-sm border p-2"
-                    placeholder="Enter job title"
+                    placeholder="Nombre y apellido"
                   />
                   {/* Más campos según necesidad */}
                 </div>
@@ -165,10 +153,10 @@ export default function Component() {
                   </label>
                   <input
                     type="text"
-                    id="jobTitle"
-                    name="jobTitle"
+                    id="Dni"
+                    name="Dni"
                     className="border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 block w-full sm:text-sm border p-2"
-                    placeholder="Enter job title"
+                    placeholder="Dni"
                   />
                   {/* Más campos según necesidad */}
                 </div>
@@ -178,10 +166,10 @@ export default function Component() {
                   </label>
                   <input
                     type="text"
-                    id="jobTitle"
-                    name="jobTitle"
+                    id="Direccion"
+                    name="Direccion"
                     className="border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 block w-full sm:text-sm border p-2"
-                    placeholder="Enter job title"
+                    placeholder="Direccion"
                   />
                   {/* Más campos según necesidad */}
                 </div>
@@ -191,10 +179,10 @@ export default function Component() {
                   </label>
                   <input
                     type="text"
-                    id="jobTitle"
-                    name="jobTitle"
+                    id="Nro de telefono"
+                    name="Nro de telefono"
                     className="border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 block w-full sm:text-sm border p-2"
-                    placeholder="Enter job title"
+                    placeholder="Nro de telefono"
                   />
                   {/* Más campos según necesidad */}
                 </div>
@@ -204,10 +192,10 @@ export default function Component() {
                   </label>
                   <input
                     type="text"
-                    id="jobTitle"
-                    name="jobTitle"
+                    id="servicio"
+                    name="servicio"
                     className="border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 block w-full sm:text-sm border p-2"
-                    placeholder="Enter job title"
+                    placeholder="servicio"
                   />
                   {/* Más campos según necesidad */}
                 </div>
@@ -218,9 +206,9 @@ export default function Component() {
                   <input
                     type="text"
                     id="jobTitle"
-                    name="jobTitle"
+                    name="Codigo postal"
                     className="border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 block w-full sm:text-sm border p-2"
-                    placeholder="Enter job title"
+                    placeholder="Codigo postal"
                   />
                   {/* Más campos según necesidad */}
                 </div>
